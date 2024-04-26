@@ -101,7 +101,7 @@ const IndexPage = () => {
         bgColor={'var(--standard-light-grey)'}
         title={'Sydney haqida'}
         quote={
-          '“Biz ikki narsaga ishonamiz: har bir ishimizda sifatga intilish va bir-birimizga g‘amxo‘rlik qilish. Qolgan hamma narsa o'z-o'zidan g'amxo'rlik qilishi kerak.“'
+          'Biz ikki narsaga ishonamiz: har bir ishimizda sifatga intilish va bir-birimizga g‘amxo‘rlik qilish. Qolgan hamma narsa o'z-o'zidan g'amxo'rlik qilishi kerak.'
         }
       />
 
