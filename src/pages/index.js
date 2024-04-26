@@ -41,11 +41,11 @@ const IndexPage = () => {
       <div className={styles.messageContainer}>
         <p>
            Bu {' '} misralari uchun Sidney mavzusining namoyishi
-           <span className={styles.gold}>material dizayni.</span>
+           <span className={styles.gold}>material dizayni. </span>
          </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+           <span className={styles.gold}>sunspel</span> and{' '}
+          <span className={styles.gold}>scotch&soda brendi</span>
         </p>
       </div>
 
@@ -99,9 +99,9 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'Sydney haqida'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Biz ikki narsaga ishonamiz: har bir ishimizda sifatga intilish va bir-birimizga g‘amxo‘rlik qilish. Qolgan hamma narsa o'z-o'zidan g'amxo'rlik qilishi kerak."'
         }
       />
 
@@ -119,7 +119,7 @@ const IndexPage = () => {
           image={toOptimizedImage('/banner3.png')}
           title={'Biz Barqarormiz'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'O'z yurtimizga g'amxo'rlik qilishdan tortib, xalqimizni qo'llab-quvvatlashgacha, atrofimizdagi dunyo uchun ko'proq narsa qilish uchun qanday qadamlar qo'yganimizni bilib oling.'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
@@ -130,8 +130,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'Siz uchun'}
+          subtitle={'Taqdim etish uchun @sidneyni belgilang.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
