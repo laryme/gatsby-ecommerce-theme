@@ -118,7 +118,7 @@ const IndexPage = () => {
           image={toOptimizedImage('/banner3.png')}
           title={'Biz Barqarormiz'}
           subtitle={
-            'O'z yurtimizga g'amxo'rlik qilishdan tortib, xalqimizni qo'llab-quvvatlashgacha, atrofimizdagi dunyo uchun ko'proq narsa qilish uchun qanday qadamlar qo'yganimizni bilib oling.'
+            "'O'z yurtimizga g'amxo'rlik qilishdan tortib, xalqimizni qo'llab-quvvatlashgacha, atrofimizdagi dunyo uchun ko'proq narsa qilish uchun qanday qadamlar qo'yganimizni bilib oling.'"
           }
           ctaText={'read more'}
           maxWidth={'660px'}
