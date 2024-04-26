@@ -89,10 +89,10 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
+        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% chegirma \n Barcha kiyimlarga`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>AYOL</Link>
-          <Link to={'/shop'}>EKAK</Link>
+          <Link to={'/shop'}>ERKAK</Link>
         </div>
       </div>
 
@@ -101,8 +101,7 @@ const IndexPage = () => {
         bgColor={'var(--standard-light-grey)'}
         title={'Sydney haqida'}
         quote={
-          'Biz ikki narsaga ishonamiz: har bir ishimizda sifatga intilish va bir-birimizga g‘amxo‘rlik qilish. Qolgan hamma narsa o'z-o'zidan g'amxo'rlik qilishi kerak.'
-        }
+          "'Biz ikki narsaga ishonamiz: har bir ishimizda sifatga intilish va bir-birimizga g'amxo'rlik qilish. Qolgan hamma narsa o'z-o'zidan g'amxo'rlik qilishi kerak.'"}
       />
 
       {/* Blog Grid */}
